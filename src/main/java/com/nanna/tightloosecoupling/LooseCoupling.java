@@ -8,9 +8,7 @@ public class LooseCoupling {
     
     @Autowired
     Job job;
-    
-    
-
+//  autowired for dependancy
     public void showData() {
         job.displayJob ();
     }
